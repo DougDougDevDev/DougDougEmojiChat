@@ -1,13 +1,14 @@
 package io.github.radbuilder.emojichat.metrics;
 
+import github.scarsz.discordsrv.dependencies.json.simple.JSONArray;
+import github.scarsz.discordsrv.dependencies.json.simple.JSONObject;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.ServicePriority;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
+
 
 import javax.net.ssl.HttpsURLConnection;
 import java.io.*;

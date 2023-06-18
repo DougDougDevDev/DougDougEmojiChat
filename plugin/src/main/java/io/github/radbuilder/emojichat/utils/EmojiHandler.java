@@ -1,7 +1,7 @@
 package io.github.radbuilder.emojichat.utils;
 
+import github.scarsz.discordsrv.dependencies.commons.lang3.StringUtils;
 import io.github.radbuilder.emojichat.EmojiChat;
-import org.apache.commons.lang.StringUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;

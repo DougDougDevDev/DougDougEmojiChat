@@ -5,8 +5,8 @@ import github.scarsz.discordsrv.api.ListenerPriority;
 import github.scarsz.discordsrv.api.Subscribe;
 import github.scarsz.discordsrv.api.events.DiscordGuildMessagePostProcessEvent;
 import github.scarsz.discordsrv.api.events.GameChatMessagePreProcessEvent;
+import github.scarsz.discordsrv.dependencies.commons.lang3.StringUtils;
 import io.github.radbuilder.emojichat.EmojiChat;
-import org.apache.commons.lang.StringUtils;
 
 /**
  * DiscordSRV hook.

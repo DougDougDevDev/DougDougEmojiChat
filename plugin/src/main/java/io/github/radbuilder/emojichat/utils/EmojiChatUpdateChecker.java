@@ -1,11 +1,11 @@
 package io.github.radbuilder.emojichat.utils;
 
+import github.scarsz.discordsrv.dependencies.json.simple.JSONArray;
+import github.scarsz.discordsrv.dependencies.json.simple.JSONObject;
+import github.scarsz.discordsrv.dependencies.json.simple.JSONValue;
 import io.github.radbuilder.emojichat.EmojiChat;
 import org.bukkit.Bukkit;
 import org.bukkit.scheduler.BukkitTask;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.JSONValue;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;

@@ -3,11 +3,10 @@ package io.github.radbuilder.emojichat.hooks;
 import de.Linus122.TelegramChat.API;
 import de.Linus122.TelegramChat.Telegram;
 import de.Linus122.TelegramChat.TelegramActionListener;
-import de.Linus122.TelegramComponents.Chat;
 import de.Linus122.TelegramComponents.ChatMessageToMc;
 import de.Linus122.TelegramComponents.ChatMessageToTelegram;
+import github.scarsz.discordsrv.dependencies.commons.lang3.StringUtils;
 import io.github.radbuilder.emojichat.EmojiChat;
-import org.apache.commons.lang.StringUtils;
 
 /**
  * TelegramChat hook.

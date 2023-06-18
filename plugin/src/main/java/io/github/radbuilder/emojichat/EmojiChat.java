@@ -92,12 +92,6 @@ public class EmojiChat extends JavaPlugin {
 			enabledHooks.add(discordSrvStaffChatHook);
 			Bukkit.getPluginManager().registerEvents(discordSrvStaffChatHook, this);
 		}
-		if (Bukkit.getPluginManager().isPluginEnabled("MVdWPlaceholderAPI")) { // Hook MVdWPlaceholderAPI if installed
-			enabledHooks.add(new MVdWPlaceholderApiHook(this));
-		}
-		if (Bukkit.getPluginManager().isPluginEnabled("PlaceholderAPI")) { // Hook PlaceholderAPI if installed
-			enabledHooks.add(new PlaceholderApiHook(this));
-		}
 		if (Bukkit.getPluginManager().isPluginEnabled("TelegramChat")) { // Hook TelegramChat if installed
 			enabledHooks.add(new TelegramChatHook(this));
 		}
